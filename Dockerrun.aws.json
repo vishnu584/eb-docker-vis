@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "vis-docker",
+    "Key": ".dockercfg.json"
+  },
+  "Image": {
+    "Name": "vishnu584/vislab",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8080"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "/webapps",
+      "ContainerDirectory": "/opt/tomcat/webapps"
+    }
+  ],
+  "Logging": "/opt/tomcat/logs"
+}
