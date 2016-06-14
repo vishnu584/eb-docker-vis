@@ -15,9 +15,8 @@
   ],
   "Volumes": [
     {
-      "HostDirectory": "/webapps",
+      "HostDirectory": "/var/app/webapps",
       "ContainerDirectory": "/opt/tomcat/webapps"
     }
-  ],
-  "Logging": "/opt/tomcat/logs"
+  ]
 }
