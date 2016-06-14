@@ -5,7 +5,7 @@
     "Key": ".dockercfg.json"
   },
   "Image": {
-    "Name": "vishnu584/vislab",
+    "Name": "vishnu584/vislab:1.0",
     "Update": "true"
   },
   "Ports": [
