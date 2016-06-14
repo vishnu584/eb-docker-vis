@@ -15,7 +15,7 @@
   ],
   "Volumes": [
     {
-      "HostDirectory": "/var/app/webapps",
+      "HostDirectory": "/var/app/current/webapps",
       "ContainerDirectory": "/opt/tomcat/webapps"
     }
   ]
